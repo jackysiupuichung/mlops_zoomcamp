@@ -2,6 +2,8 @@
 
 This project builds a production-ready **query-to-product ranking system** using PyTorch Lightning, SentenceTransformer embeddings, and MLflow for experimentation and deployment.
 
+> 🧪 **Note**: For simplicity, most data preparation, embedding generation, and model hosting are demonstrated directly within **Jupyter notebooks**.
+
 ---
 
 ## 🚀 Features
@@ -113,4 +115,19 @@ docker run -p 5000:5000 query-ranker
 - [ ] Support attention-based fusion
 - [ ] Add product metadata reranker
 - [ ] Integrate real-time feedback loop
+- [ ] Refactor pipeline for proper MLOps setup (config-driven runs, monitoring, CI/CD)
+
+---
+
+## 📚 References
+- Amazon ESCI Dataset (Kaggle)
+- Sentence-Transformers
+- PyTorch Lightning
+- MLflow
+
+---
+
+## 👨‍🔬 Author
+[Your Name]  
+[Your GitHub/Email]
 
